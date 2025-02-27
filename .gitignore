@@ -44,6 +44,10 @@ install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
 _deps
+cmake-build-debug
 
 build/
 vcpkg_installed
+
+# IDE
+.idea
