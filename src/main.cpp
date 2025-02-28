@@ -37,6 +37,10 @@ void type(std::stringstream *ss) {
             std::cout << "exit is a shell builtin" << std::endl;
             return;
         }
+        if (word == "type") {
+            std::cout << "type is a shell builtin" << std::endl;
+            return;
+        }
         else {
             std::cout << word + ": not found" << std::endl;
             return;
